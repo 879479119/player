@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+sup{
+    font-size: 10px;
+}
+
+td{
+    font-size: 14px;
+    height: 50px;
+}
+
+h3{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid 3px rgba(255, 255, 255, 0.8);
+}
+
+button{
+    cursor: pointer;
+}
+
+.wrap{
+    background: url("../image/bg2.jpg") no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.trans{
+    background: rgba(255, 255, 255, 0.40);
+    border: solid 2px rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.container{
+    position: relative;
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.sec-active{
+    width: 80%;
+    height: 100px;
+    margin: 20px;
+}
+
+.sec{
+    width: 60%;
+    height: 60px;
+    margin: 20px;
+}
+
+.statistics{
+    position: absolute;
+    width: 20%;
+    height: 312px;
+    right: 0;
+    top: 258px;
+    margin: 20px;
+}
+
+.sec-active *{
+    float: left;
+}
+
+.sec-active img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border: solid 2px #fff;
+    border-radius: 80px;
+}
+
+.sec-active p{
+    float: none;
+    overflow: hidden;
+    margin-bottom: 0;
+    font-size: 14px;
+    width: 700px;
+}
+
+.sec-active p :first-child{
+    border-left: 3px solid rgba(0, 0, 0, 0.49);
+    padding-left: 10px;
+}
+
+.sec-active p *{
+    float: none;
+}
+
+.choice{
+    width: 70px;
+}
+
+.trans-btn-success{
+    display: block;
+    border-radius: 5px;
+    background-color: rgba(255, 113, 140, 0.54);
+    margin: 10px 10px 5px 10px;
+    color: #ffffff;
+}
+
+.trans-btn-cancel{
+    display: block;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 5px 10px 10px 10px;
+    color: #ffffff;
+}
+
+.sec *{
+    float: left;
+}
+
+.sec img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border: solid 2px #fff;
+    border-radius: 80px;
+}
+
+.sec p{
+    width: 580px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.statistics-table{
+    /*height: 150px;*/
+    margin: 20px;
+}
+
+tr :first-child{
+    text-align: right;
+    width: 70px;
+}
+
+tr :last-child{
+    color: #ffffff;
+    text-align: right;
+    width: 120px;
+}
+
+.count{
+    font-size: 30px;
+    color: rgba(255, 113, 140, 0.54);
+}
+
+#exit{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    margin-top: -30px;
+    margin-left: 78px;
+    background-color: rgba(0, 204, 255, 0.64);
+}
